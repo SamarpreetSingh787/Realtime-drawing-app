@@ -1,0 +1,48 @@
+.heading {
+    font-size: 23px;
+    width: 100%;
+    margin-top: 0px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.note {
+    font-size: 15px;
+    color: black;
+}
+
+.copy_right_footer {
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    line-height: 3;
+    text-align: center;
+    transition: transform 3s;
+}
+
+.copy_right_footer:hover {
+    transform: scale(1.2);
+    background-color: white;
+    border: 3px solid black;
+}
+
+.heading:hover {
+    background-color: yellow;
+    border: 3px solid green;
+    color: red;
+}
+
+canvas {
+    border: 2px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+    animation-name: egs;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes egs {
+    from {box-shadow: 1px 1px 38px red;}
+    to {box-shadow: 1px 1px 38px yellow;}
+}
